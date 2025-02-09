@@ -50,10 +50,32 @@ nav a:hover {
  display: flex;  
  justify-content: space-around;
  padding: 20px 0;
+ background-color: #f4f4f4;
  text-align: center;
 }
 
 #details div{
-  flex: 1;
-  max-width: 200px;
+  width: 25%;
+  background-color: gray;
+  padding: 15px;
+  transition: backgroun-color 0.3s ease;
+}
+
+#details div:hover {
+  background-color: darkgray;
+} 
+
+#details div p a {
+  display: block; /* Makes the links take up full width */
+  padding: 10px; /* Adds some padding for better spacing */
+  margin: 5px 0; /* Adds spacing between links */
+  border: 1px solid black; /* Adds a black border around each link */
+  text-decoration: none; /* Removes default underline */
+  color: black; /* Sets link color */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+#details div p a:hover {
+  background-color: darkgray; /* Changes background on hover */
+  color: white; /* Changes text color on hover */
 }
