@@ -13,17 +13,17 @@ h1 {
   color: red;
 }
 
-featured-property {
+#featured-property {
   text-align: center;
 }
 
-featured-property img {
+#featured-property img {
   width: 900px;
   display: block;
   margin: 0 auto;
 }
 
-featured-propert p {
+#featured-propert p {
   width: 800px;
   margin: 20px auto; 
   text-align: center; 
@@ -44,4 +44,16 @@ nav a{
 
 nav a:hover {
   background-color: darkgray;
+}
+
+#details {
+ display: flex;  
+ justify-content: space-around;
+ padding: 20px 0;
+ text-align: center;
+}
+
+#details div{
+  flex: 1;
+  max-width: 200px;
 }
